@@ -1,0 +1,77 @@
+#sidebar {
+	float: left;
+	background-color: #4B4B4B;
+	width: 25%;
+	height: 100%;
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+	text-align: right;
+}
+
+body {
+	float: left;
+	width: 100%;
+}
+
+#sidebar h2, h3 {
+	padding-right: 20px;
+	font-family: "Source Serif Pro", serif;
+}
+
+#sidebar hr {
+	margin: 10px;
+}
+
+#sidebar a {
+	color: white;
+	text-decoration: none;
+}
+
+#page-links {
+	margin-top: 30px;
+}
+
+.spec-link {
+	padding: 20px 10px 20px 0px;
+}
+
+.active-link {
+	background-color: black;
+}
+
+#main-body {
+	float: right;
+	width: 75%;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+#main-body p, h2 {
+	margin: 40px;
+}
+
+
+#page-title {
+	float: right;
+	width: 76%;
+	z-index: 2;
+	margin-top: -30px;
+	margin-left: -20px;
+	background-image: url("author_all.jpg");
+	color: white;
+	padding: 150px 0px 150px 0px;
+	height: 100%;
+	text-align: center;
+	font-family: "Source Serif Pro", serif;
+	background-attachment: fixed;
+	background-size: 75% 60%;
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+#page-title h1 {
+	background-color: black;
+	margin: 0px 70px 0px 70px;
+}
