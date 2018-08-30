@@ -35,7 +35,7 @@ body {
 }
 
 .spec-link {
-	padding: 20px 10px 20px 0px;
+	padding: 10px 10px 10px 0px;
 }
 
 .active-link {
@@ -48,7 +48,7 @@ body {
 	font-family: "Source Sans Pro", sans-serif;
 }
 
-#main-body p, h2 {
+#main-body p, #main-body h2 {
 	margin: 40px;
 }
 
